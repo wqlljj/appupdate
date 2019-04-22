@@ -1,0 +1,34 @@
+﻿生成启动时间为 2019/3/28 11:08:15。
+     1>项目“C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\appdiff\appdiff.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TC /errorReport:prompt -D _CRT_SECURE_NO_WARNINGS -D _CRT_NONSTDC_NO_DEPRECATE blocksort.c bzlib.c compress.c crctable.c decompress.c huffman.c randtable.c
+         randtable.c
+         huffman.c
+         decompress.c
+         crctable.c
+         compress.c
+     1>compress.c(205): warning C4244: “=”: 从“__int64”转换到“Int32”，可能丢失数据
+         bzlib.c
+     1>bzlib.c(996): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1055): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+     1>bzlib.c(1190): warning C4267: “=”: 从“size_t”转换到“Int32”，可能丢失数据
+         blocksort.c
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl- /Od /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -D _CRT_SECURE_NO_WARNINGS -D _CRT_NONSTDC_NO_DEPRECATE bsdiff.cpp
+         bsdiff.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.lib" /MACHINE:X64 /DLL x64\Debug\blocksort.obj
+         x64\Debug\bsdiff.obj
+         x64\Debug\bzlib.obj
+         x64\Debug\compress.obj
+         x64\Debug\crctable.obj
+         x64\Debug\decompress.obj
+         x64\Debug\huffman.obj
+         x64\Debug\randtable.obj
+            正在创建库 C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.lib 和对象 C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.exp
+         appdiff.vcxproj -> C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\x64\Debug\appdiff.dll
+     1>已完成生成项目“C:\Users\cloud\Documents\Visual Studio 2013\Projects\appdiff\appdiff\appdiff.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.66
